@@ -16,22 +16,22 @@
             <h1>Survey Form</h1>
         </header>
         <div class="container">
-            <p id="heading">Let us know how we can improve GitHub</p>
+            <p id="heading">Let us know how we can improve FreeCodeCamp</p>
             <form id="Survey">
                 <div class="label1">
                     <label for="name" class="input1">*Name:</label>
                     <input type="text" id="name" name="name" class="choice1" placeholder="Enter your name" required
-                        autofocus autocomplete="off"><br><br><br>
+                        autofocus autocomplete="on"><br><br><br>
                 </div>
                 <div class="label2">
                     <label for="email" class="input2">*Email:</label>
                     <input type="email" id="email" name="email" class="choice2" placeholder="Enter your Email" required
-                        autocomplete="off"><br><br>
+                        autocomplete="on"><br><br>
                 </div>
                 <div class="label3">
                     <label for="age" class="input3">*Age:</label>
                     <input type="number" id="age" name="age" class="choice3" required placeholder="Age"
-                        autocomplete="off"><br><br>
+                        autocomplete="on"><br><br>
                 </div>
                 <div class="label4">
                     <label for="role" class="input4">Which option best describes your current role?</label>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="label5">
                     <label for="recommendation">
-                        <legend class="input5">* How likely is that you would recommend GitHub to a friend?</legend>
+                        <legend class="input5">* How likely is that you would recommend FreeCodeCamp to a friend?</legend>
                     </label>
                     <div class="choice5">
                         <input type="radio" id="recommendation" name="Definetely">Definetely<br>
@@ -54,7 +54,7 @@
                     </div><br><br>
                 </div>
                 <div class="label6">
-                    <label for="like" class="input6">What do you like most in GitHub:</label>
+                    <label for="like" class="input6">What do you like most in FCC:</label>
                     <select id="like" class="choice6">
                         <option>Select an option</option>
                         <option value="Projects">Projects</option>
@@ -80,7 +80,7 @@
                 </div>
                 </div>
                 <div class="textbox">
-                 Any Comments or Suggestions?<textarea name="comment" form="Survey" class="comsec" placeholder="Enter your comment here..."></textarea><br>
+                <p class="cs">Any Comments or Suggestions?</p><textarea name="comment" form="Survey" class="comsec" placeholder="Enter your comment here..."></textarea><br>
                 </div>
                 <input type="submit" name="submit" class="click">
             </form>
