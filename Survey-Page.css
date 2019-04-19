@@ -15,15 +15,16 @@ header{
     flex-direction: row;
     justify-content: center;
     height: 20px;
+    font-size: 1.2rem;
 }
 .container{
     width: 1000px;
     background-color: #F8F8F8;
     border-radius: 1.1%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-top: 15px;
+    font-size: 17px;
+    padding-left: 100px;
 }
 .label1, .label2, .label3{
     display: flex;
@@ -37,7 +38,7 @@ header{
 }
 .input1, .input2, .input3{
     text-align: center;
-    width: 120px;
+   /* width: 100px;*/
 }
 .choice1, .choice2, .choice3{
     justify-content: flex-end;
@@ -45,6 +46,7 @@ header{
     width: 275px;
     border: gainsboro 2px solid;
     border-radius: 1.5%;
+    margin-left: 25px;
 }
 .label4{
     display: flex;
@@ -54,10 +56,11 @@ header{
     margin-left: 35px;
 }
 .input4{
-    margin-left: 45px;
+    width: 330px;
+    text-align: right;
 }
 .choice4, .choice6{
-    margin-left: 42px;
+    margin-left: 30px;
     width: 130px;
     height: 35px;
 }
@@ -71,13 +74,12 @@ header{
 }
 .input5{
     width: 300px;
-    flex-wrap: wrap;
     text-align: right;
 }
 .choice5{
     margin-top: 40px;
     align-items: baseline;
-    margin-left: 35px;
+    margin-left: 15px;
     line-height: 1.8rem;
 }
 .input5{
@@ -105,17 +107,19 @@ header{
     text-align: right;
 }
 .choice7{
-    margin-left: 35px;
+    margin-left: 15px;
     line-height: 1.8rem;
 }
 .textbox{
     display: flex;
     flex-direction: row;
-    margin-left: 180px;
     margin-top: 30px;
 }
+.cs{
+    margin-left: 170px;
+}
 .comsec{
-    margin-left: 25px;
+    margin-left: 20px;
     width: 300px;
     height: 60px;
 }
@@ -135,6 +139,45 @@ header{
         width: 700px;
    }
    [class="label1"]{
-       justify-content: center;
+       margin-left: 150px;
    }
+   [class="label2"]{
+    margin-left: 150px;
+}
+[class="label3"]{
+    margin-left: 150px;
+}
+    [class="input4"]{
+        width: 250px;
+    }
+    [class="choice4"]{
+        margin-left: 30px;
+    }
+    [class="input5"]{
+        width: 200px;
+    }
+    [class="choice5"]{
+        margin-left: 25px;
+    }
+    [class="input6"]{
+        margin-left: 40px;
+    }
+    [class="choice6"]{
+        margin-left: 25px;
+    }
+    [class="input7"]{
+        width: 225px;
+    }
+    [class="label7"]{
+        margin-left: 60px;
+    }
+    [class="choice7"]{
+        margin-left: 20px;
+    }
+    [class="cs"]{
+        margin-left: 70px;
+    }
+    [class="click"]{
+        margin-left: 280px;
+    }
 }
